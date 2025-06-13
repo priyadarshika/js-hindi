@@ -31,3 +31,4 @@ console.log(typeof null); // type = object
 console.log(typeof undefined);// type = undefine
 
 
+// done 12 june 25
