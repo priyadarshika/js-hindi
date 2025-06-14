@@ -22,9 +22,37 @@ let booleanIsLoggedIn = Boolean(isloggedIn)
 // "darshi" => true
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
  
+// ********************operation**************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+
+let str1 = "hello"
+let str2 = "darshi"
+
+
+let str3 = str1 + str2
+// console.log(str3);
+
+console.log( +true);
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2 // we shuold not write code like this it is not appreciated
+// rather it looks messy 
+
+let gamecounter = 100
+++gamecounter; //prefix
+console.log(gamecounter);
+
+gamecounter++; //postfix
+console.log(gamecounter);
+
+
 
 
 // node 03_conversionOperation.js
